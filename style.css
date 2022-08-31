@@ -4,11 +4,48 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+   font-family: "Norse Bold";
+   src: url(./images-logos-fonts/Norse-Bold.otf);
+}
+
 main {
    display: flex;
+   min-height: calc(100vh - 40px);
+}
+
+.img-section {
+   background-image: url('./images-logos-fonts/fern-by-halie-west.jpg');
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex: 3;
+   color: white;
+   text-align: center;
+}
+
+.logo-section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.4);
+   margin-top: 20vh;
+   font-family: 'Norse Bold';
+   font-size: 5rem;
+   padding: 1rem;
+}
+
+.logo-section img {
+   height: 100px;
 }
 
 .form-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex: 5;
    background-color: #f9fafb;
 }
 
