@@ -26,6 +26,14 @@ main {
    text-align: center;
 }
 
+.img-section a {
+   color: white;
+}
+
+.img-section p{
+   font-size: 0.9rem;
+}
+
 .logo-section {
    display: flex;
    align-items: center;
