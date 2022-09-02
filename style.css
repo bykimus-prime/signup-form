@@ -92,12 +92,16 @@ fieldset {
    border: none;
 }
 
-.form-cell {
+.form-cell, .form-cell-end {
    display: flex;
    flex-direction: column;
    width: 40%;
    margin: 1rem 0;
    white-space: nowrap;
+}
+
+.form-cell-end {
+   margin-bottom: 0;
 }
 
 form input {
@@ -112,7 +116,7 @@ form input {
    border: 1px solid red;
 }
 
-.form-cell p {
+.form-cell-end p {
    color: red;
    font-size: 0.8rem;
    font-weight: 100;
