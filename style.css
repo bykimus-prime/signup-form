@@ -88,7 +88,6 @@ main {
 fieldset {
    display: flex;
    gap: 3rem;
-   padding: 1rem;
    border: none;
 }
 
@@ -96,6 +95,7 @@ fieldset {
    display: flex;
    flex-direction: column;
    width: 40%;
+   margin: 1rem 0;
 }
 
 form input {
