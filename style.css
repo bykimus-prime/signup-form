@@ -59,21 +59,20 @@ main {
    flex-direction: column;
    justify-content: center;
    flex: 5;
-   background-color: #f9fafb;
+   background-color: #F9FAFB;
 }
 
 .form-section p {
    font-weight: bold;
    margin-left: var(--left-margin);
    max-width: 90%;
-   margin-bottom: 20px;
+   margin-bottom: 1rem;
 }
 
 .form-container {
    background-color: white;
-   margin-top: 2rem;
-   padding-top: 1rem;
-   padding-bottom: 1rem;
+   margin-top: 1rem;
+   padding: 1rem 0;
    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
    padding-left: var(--left-margin);
 }
