@@ -68,7 +68,7 @@ main {
    margin-bottom: 20px;
 }
 
-.input-section {
+.form-container {
    background-color: white;
    margin-top: 2rem;
    padding-top: 1rem;
@@ -77,34 +77,32 @@ main {
    padding-left: var(--left-margin);
 }
 
-.input-section h3 {
+.form-container h3 {
    margin-bottom: 1rem;
 }
 
-.input-section label {
+.form-container label {
    letter-spacing: 0.1rem;
 }
 
-.input-section input {
-   box-sizing: border-box;
-   border: 1px solid #e5e7eb;
-   border-radius: 3px;
-   width: 40%;
-   font-size: 1rem;
-   margin-right: 2rem;
-   padding: 0.3rem 0.5rem;
+fieldset {
+   display: flex;
+   gap: 3rem;
+   padding: 1rem;
+   border: none;
 }
 
-.form-inputs {
+.form-cell {
    display: flex;
    flex-direction: column;
+   width: 40%;
 }
 
-.form-inputs div {
-   display: flex;
-   flex-wrap: wrap;
-   column-gap: 50px;
-   row-gap: 20px;
+form input {
+   border: 1px solid #D6D9DC;
+   border-radius: 4px;
+   padding: 0.5rem;
+   font-size: 1rem;
 }
 
 #createAccount {
