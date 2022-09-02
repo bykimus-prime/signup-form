@@ -61,6 +61,26 @@ main {
    background-color: white;
 }
 
+#createAccount {
+   background-color: #596D48;
+   color: white;
+   border: none;
+   padding: 15px 40px;
+   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   font-weight: bold;
+   margin: 20px;
+}
+
+.log-in {
+   font-weight: bold;
+}
+
+.log-in a {
+   color: #596D48;
+   text-decoration: none;
+}
+
 footer {
    display: flex;
    align-items: center;
