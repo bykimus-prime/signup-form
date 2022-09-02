@@ -30,11 +30,11 @@
          <p>You <em>know</em> you want to.</p>
 
          <form>
-            <div class="input-section">
+            <div class="form-container">
                <h3>Let's do this!</h3>
-               <div class="form-inputs">
 
-                  <div class="name-inputs">
+               <fieldset>
+                  <div class="form-cell">
                      <label for="first-name">FIRST NAME</label>
                      <input
                      type="text"
@@ -42,7 +42,8 @@
                      name="first-name"
                      placeholder="John"
                      >
-
+                  </div>
+                  <div class="form-cell">
                      <label for="last-name">LAST NAME</label>
                      <input
                      type="text"
@@ -51,8 +52,10 @@
                      placeholder="Smith"
                      >
                   </div>
+               </fieldset>
 
-                  <div class="contact-inputs">
+               <fieldset>
+                  <div class="form-cell">
                      <label for="email">EMAIL</label>
                      <input
                      type="email"
@@ -60,7 +63,8 @@
                      name="email"
                      placeholder="john.smith@odin.com"
                      >
-
+                  </div>
+                  <div class="form-cell">
                      <label for="phone-number">PHONE NUMBER</label>
                      <input
                      type="tel"
@@ -68,15 +72,18 @@
                      name="phone-number"
                      >
                   </div>
+               </fieldset>
 
-                  <div class="password-inputs">
+               <fieldset>
+                  <div class="form-cell">
                      <label for="password">PASSWORD</label>
                      <input
                      type="password"
                      id="password"
                      name="password"
                      >
-
+                  </div>
+                  <div class="form-cell">
                      <label for="confirm-password">CONFIRM PASSWORD</label>
                      <input
                      type="password"
@@ -84,7 +91,8 @@
                      name="confirm-password"
                      >
                   </div>
-               </div>
+               </fieldset>
+
             </div>
             <button type="submit" id="createAccount">Create Account</button>
          </form>
