@@ -137,6 +137,32 @@ input:focus {
    font-weight: bold;
    margin-top: 2rem;
    margin-left: var(--left-margin);
+   cursor: pointer;
+   position: relative;
+   white-space: nowrap;
+   width: 178px;
+   transition: 0.5s;
+}
+
+#createAccount:after {
+   content: '»';
+   position: absolute;
+   opacity: 0;
+   top: 2px;
+   right: -0.5rem;
+   transition: 0.5s;
+   font-size: 2rem;
+   font-weight: 100;
+}
+
+#createAccount:hover {
+   padding-right: 1rem;
+   padding-left: 0.1rem;
+}
+
+#createAccount:hover:after {
+   opacity: 1;
+   right: 0.5rem;
 }
 
 .log-in {
